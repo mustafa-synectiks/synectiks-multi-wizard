@@ -1,0 +1,19 @@
+<section style="background: #efefe9">
+  <div class="container">
+    <div class="board">
+      <!--Navigation Area circular tabs-->
+      <msw-navbar></msw-navbar>
+      <!--Navigation Area circular tabs-->
+
+      <!--content area-->
+      <div class="tab-content">
+        <!--routed view-->
+        <router-outlet></router-outlet>
+      </div>
+      <!--content area-->
+    </div>
+
+    <!--for debugging show our formData as it is being typed-->
+    <pre>{{ formData | json }}</pre>
+  </div>
+</section>

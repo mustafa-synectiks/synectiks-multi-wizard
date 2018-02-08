@@ -26,23 +26,23 @@
 }
 
 /* active buttons */
-#status-buttons a.active span.round-tabs.one { 
-    background: rgb(34, 194, 34); 
+#status-buttons a.active span.round-tabs.one {
+    background: rgb(34, 194, 34);
     color: #fff
 }
 
-#status-buttons a.active span.round-tabs.two { 
-    background: #febe29; 
+#status-buttons a.active span.round-tabs.two {
+    background: #febe29;
     color: #fff
 }
 
-#status-buttons a.active span.round-tabs.three { 
-    background: #3e5e9a; 
+#status-buttons a.active span.round-tabs.three {
+    background: #3e5e9a;
     color: #fff
 }
 
-#status-buttons a.active span.round-tabs.four { 
-    background: #f1685e; 
+#status-buttons a.active span.round-tabs.four {
+    background: #f1685e;
     color: #fff
 }
 
@@ -66,4 +66,45 @@
 }
 .iradio_buttons.checked {
     background-position: -168px 0;
+}
+.circle-tabs {
+  border: 2px solid green;
+  padding: 37px 2px;
+  width: 5.5em;
+  height: 5.5em;
+  color: black;
+  font-size: 1.5em;
+  background: white;
+  border-radius: 50%;
+  position: relative;
+  right: 10px;
+  top: -30px;
+}
+.z{
+  z-index: 9999;
+}
+.nav-tabs > li a{
+  z-index: 999;
+}
+
+.list-none {
+  list-style: none;
+}
+.vliner{
+  border-left: 2px solid #DDDDDD;
+  height: 377px;
+  position: relative;
+  left: -3em;
+  bottom: 1.5em;
+}
+.padding-1em{
+  padding: 1em 0em;
+}
+.board-vertical{
+  position: absolute;
+  bottom: -3em;
+  left: 0em;
+}
+.padi{
+  padding: 0.5em 0.5em;
 }

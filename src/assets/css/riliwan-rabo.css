@@ -3,7 +3,7 @@
 .board{
     width: 75%;
     margin: 60px auto;
-    height: 500px;
+    height: 90vh;
     background: #fff;
     /*box-shadow: 10px 10px #ccc,-10px 20px #ddd;*/
 }
@@ -140,7 +140,7 @@ li.active span.round-tabs.five{
     border: 5px solid transparent;
     border-bottom-color: #ddd;
     transition:0.1s ease-in-out;
-    
+
 }
 .nav-tabs > li.active:after {
     content: " ";
@@ -151,7 +151,7 @@ li.active span.round-tabs.five{
     bottom: 0px;
     border: 10px solid transparent;
     border-bottom-color: #ddd;
-    
+
 }
 .nav-tabs > li a{
    width: 70px;
@@ -191,7 +191,7 @@ padding-top: 50px;
 
 
 @media( max-width : 585px ){
-    
+
     .board {
 width: 90%;
 height:auto !important;

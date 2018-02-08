@@ -5,7 +5,7 @@ import {FormDataService} from '../data/formData.service';
 
 @Component({
   selector: 'mt-wizard-work',
-  templateUrl: '/work.component.html'
+  templateUrl: './work.component.html'
 })
 
 export class WorkComponent implements OnInit {
@@ -39,7 +39,7 @@ export class WorkComponent implements OnInit {
 
   goToNext(form: any) {
     if (this.save(form)) {
-      //navigate to the address page
+      // navigate to the address page
       this.router.navigate(['/address']);
     }
   }
